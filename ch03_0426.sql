@@ -109,6 +109,7 @@ INSERT INTO ex3_3 (employee_id)
        AND s.SALES_MONTH BETWEEN '200010' AND '200012'
      GROUP BY e.employee_id;
 
+
 SELECT *
       FROM ex3_3
      ORDER BY employee_id;

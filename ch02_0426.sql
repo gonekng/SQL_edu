@@ -8,10 +8,6 @@ CREATE TABLE ex2_6 (
 INSERT INTO ex2_6 VALUES('AA', '');
 INSERT INTO ex2_6 VALUES('AA', 'BB');
 
-SELECT constraint_name, constraint_type, table_name, search_condition
-    FROM user_constraints
-    WHERE table_name = 'EX2_6';
-
 -- UNIQUE
 CREATE TABLE ex2_7 (
     COL_UNIQUE_NULL VARCHAR2(10) UNIQUE
