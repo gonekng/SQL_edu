@@ -267,7 +267,7 @@ SELECT b2.*
 --  LISTAGG 함수 대신 계층형 쿼리, 분석함수를 사용해서 위 쿼리와 동일한 결과를 산출하는 쿼리를 작성해 보자. 
 
 SELECT department_id
-        , SUBSTR(SYS_CONNECT_BY_PATH(emp_name, ','),2) empnames
+        , SYS_CONNECT_BY_PATH(emp_name, ',') empnames
     FROM (
             SELECT emp_name
                     , department_id
