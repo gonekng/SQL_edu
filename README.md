@@ -2,7 +2,7 @@
 
 <img src="oracle_textbook.jpg" width="300"/>
 
-> 오라클 SQL과 PL/SQL을 다루는 기술 (길벗)
+> 교재 '오라클 SQL과 PL/SQL을 다루는 기술 (길벗)'를 활용하여 학습한 내용입니다.
  
 <br>
 
