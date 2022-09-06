@@ -1,6 +1,9 @@
 # SQL_edu
-> 오라클 SQL과 PL/SQL을 다루는 기술 (길벗)
 
+<img src="oracle_textbook.jpg" width="300"/>
+
+> 오라클 SQL과 PL/SQL을 다루는 기술 (길벗)
+ 
 <br>
 
 ## I. 오라클 프로그래밍의 시작, SQL
